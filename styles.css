@@ -1,4 +1,39 @@
+body {
+  font-family: monospace;
+}
+
 h1 {
   text-align: center;
+  color: blueviolet;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.search-bar {
+  padding: 20px 30px;
+  border: 1px solid blueviolet;
+  color: white;
+  border-radius: 20px;
+}
+
+.search-button {
+  padding: 20px 30px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover {
+  border: 1px solid blueviolet;
+  background-color: transparent;
+  cursor: pointer;
   color: blueviolet;
 }
