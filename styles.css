@@ -14,6 +14,17 @@ form {
   justify-content: center;
 }
 
+img {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
 .search-bar {
   padding: 20px 30px;
   border: 1px solid blueviolet;
